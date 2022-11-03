@@ -23,4 +23,4 @@ alert(`the result is ${1 + 2}`); // the result is 3
 let isGreater = 4 > 1;
 
 alert(isGreater); // true (the comparison result is "yes")
-console.log(isGreater);
+console.log(isGreater); // result is true
