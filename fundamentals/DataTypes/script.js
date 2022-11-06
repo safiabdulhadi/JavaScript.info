@@ -48,7 +48,8 @@ of different types differently or just want to do a quick check.
 
 
 console.log(typeof undefined); // "undefined"
-console.log(typeof O); // "number"
+console.log(typeof 0); // "number"
+console.log(typeof 10n); // "bigint"
 console.log(typeof true); // "boolean"
 console.log(typeof "foo"); // "string"
 console.log(typeof Symbol ("id")); // "symbol"
