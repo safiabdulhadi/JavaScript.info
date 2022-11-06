@@ -33,10 +33,32 @@
 // Double and single quotes are “simple” quotes. There’s practically no difference between them in JavaScript.
 
 // Backticks are “extended functionality” quotes. They allow us to embed variables and expressions into a string by wrapping them in ${…}, for example:
-let str = "Hello";
-let str2 = 'Single quotes are ok too';
-let phrase = `can embed another ${str}`;
-console.log(str);
-console.log(str2);
-console.log(phrase);
+// let str = "Hello";
+// let str2 = 'Single quotes are ok too';
+// let phrase = `can embed another ${str}`;
+// console.log(str);
+// console.log(str2);
+// console.log(phrase);
 
+
+/*
+The typeof operator return the type of the argument.it's useful when we want to proces values
+of different types differently or just want to do a quick check.
+*/
+
+
+console.log(typeof undefined); // "undefined"
+console.log(typeof O); // "number"
+console.log(typeof true); // "boolean"
+console.log(typeof "foo"); // "string"
+console.log(typeof Symbol ("id")); // "symbol"
+console.log(typeof Math); // "object"
+/**
+ The result of typeof null is "object" . That's and officiallly recongized derror in typeof,
+ coming from very early days of JavaScript and kept for comatibility.
+ Definitely, null is not an object. It is a specail value with a separate type of it's own.
+ The behavior of typeof is wrong here.
+ */
+
+ console.log(typeof null); // "object"
+ console.log(typeof alert); // "function"
