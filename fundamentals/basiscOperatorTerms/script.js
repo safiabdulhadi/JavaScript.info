@@ -37,3 +37,9 @@ In other words, string are compared letter-by-letter.
 console.log('Z' > 'A'); // true
 console.log('Glow' > 'Glee'); // true
 console.log("Bee" > "Be"); // true
+console.log("2" > 1);// true string "2" becomes a number
+console.log(undefined > 0); // false
+console.log(undefined == 0);// false
+
+console.log(NaN > 0); // false
+console.log(NaN == 0); //fasle
