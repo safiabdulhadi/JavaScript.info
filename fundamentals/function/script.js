@@ -27,3 +27,16 @@ console.log(result);// 450
 let numArrayBe = [ 400, 300];
 let resultOfArrayNumbBe = addValues(numArrayBe[0],numArrayBe[1]);
 console.log(resultOfArrayNumbBe);//700
+
+
+
+s
+function addNumbers(number1, number2){ //paremeters
+    let addition = number1 + number2;
+    console.log(addition);
+    return addition;
+}
+
+addNumbers(20,10);
+let additionEqualsTo = addNumbers(100,300);//arguments or operands
+console.log(additionEqualsTo());

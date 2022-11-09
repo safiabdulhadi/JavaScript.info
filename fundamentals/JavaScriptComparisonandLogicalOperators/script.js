@@ -23,3 +23,25 @@ of no value as you can on above example const age = null
 let x;
 console.log(x); // undefined
 console.log(typeof x); // undefined
+
+
+/*
+Comparison Operators compare two values and return boolean values
+true or false
+*/
+// Comparison Operator => true /false
+
+const a = 5;
+const b = 10;
+
+console.log(a < b); // true
+
+console.log(a > b); // false
+
+console.log(a <= b); // true
+
+console.log(a >= b); // false
+
+console.log(a == b); // true
+
+
