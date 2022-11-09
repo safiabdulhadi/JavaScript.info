@@ -29,3 +29,6 @@ let nickName = 'Supercoder';
 
 // shows the first defined value:
 console.log(firstName ?? lastName ?? nickName ?? "Anonymous"); // Supercode
+
+
+

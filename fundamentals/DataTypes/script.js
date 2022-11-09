@@ -63,3 +63,36 @@ console.log(typeof Math); // "object"
 
  console.log(typeof null); // "object"
  console.log(typeof alert); // "function"
+
+
+/**
+ * whe it comes to data types there are
+ * two types of programming laanguages statically typed
+ * or dynamically typed
+ * languages and dynamically typed languages what does this mean statically
+ * typed languages are languages where each varable and expression type
+ * is already known at complie time so once avarable
+ * is declared to be of a certain type it cannot hold values of any other data
+ * type that's the case in c c plus or java...
+ * for example in c if you decleare a vaariable to be a number you
+ * have to say int which stand for integer so end number
+ * is going to be 5. int = 5;
+ * you cannot do number is going to be like a sting of
+ * test now this is an eeror if you declare a variable as number it must
+ * stay a number on the other hand
+ * we have dynamically typed languages they can receive different data types over time
+ * javascript is dynamically typed that means that varables in javascript
+ * can receive different data types over time we are going to see this in action really soon
+ * a variable in javascript can contain any data a variable ca at one moment be a sting
+ * and add another one be a number
+
+ */
+// Statically typedn// it can not change
+let message = "Hello, world!";
+console.log(message);
+console.log(typeof message); // "Hello, world!"
+message = 25;
+console.log(message);
+console.log(typeof message); // number
+// Dynamically typed // it can change like above javascript
+//javascript is dynamically typed which means that at one moment the variable can be a number or string
