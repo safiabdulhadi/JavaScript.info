@@ -5,10 +5,17 @@ Function Declaration
 To create a function we can use a function declaration
 */
 
-function showMessage(){
-    console.log("Hello everyone!");
-}
-showMessage();
+// function showMessage(){
+//     console.log("Hello everyone!");
+// }
+// showMessage();
+
+
+// function showMessage(from, text){
+//     console.log( `${from} ${text}`);
+// }
+// showMessage("Hello ", "from me Safi");
+
 
 /*
 What are functions and why should we use them a javascript function is a block of code
