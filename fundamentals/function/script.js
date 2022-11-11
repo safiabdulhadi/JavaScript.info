@@ -1,3 +1,15 @@
+
+/*
+Function Declaration
+
+To create a function we can use a function declaration
+*/
+
+function showMessage(){
+    console.log("Hello everyone!");
+}
+showMessage();
+
 /*
 What are functions and why should we use them a javascript function is a block of code
 
@@ -9,29 +21,15 @@ and it performs a task that's it that's javascript function
 // a function call (Calling/ executing a function)
 
 
-function square(number){
-return number * number;
-}
+// function square(number){
+// return number * number;
+// }
 
-let resultOfSquare = square(4);
-let resultOfSquare1 = square(2);
+// let resultOfSquare = square(4);
+// let resultOfSquare1 = square(2);
 
-console.log(resultOfSquare);
-console.log(resultOfSquare1);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// console.log(resultOfSquare);
+// console.log(resultOfSquare1);
 
 
 // function calculateArea(width, height){

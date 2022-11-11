@@ -47,3 +47,35 @@ Cependant, pour des chaînes de caractères données, un simple '==' fonctionne 
 // }else{
 //     console.log("i don't know");
 // }
+
+// let browser = 'Chrome';
+// if(browser == 'Edge') {
+//     console.log("You've got the Edge!");
+//   } else if (browser == 'Chrome'
+//    || browser == 'Firefox'
+//    || browser == 'Safari'
+//    || browser == 'Opera') {
+//     console.log( 'Okay we support these browsers too' );
+//   } else {
+//     console.log( 'We hope that this page looks ok!' );
+//   }
+  // output will be 'Okay we surport these browsers too';
+
+
+
+
+//   let a = +prompt('Add any number you like ' , '');
+
+//   switch(a){
+//     case 0:
+//     alert(0);
+//     break;
+//     case 1:
+//     alert(1);
+//     break;
+//     case 2:
+//     alert(2);
+//     break;
+//     case 3:
+//     alert(3);
+//   }
