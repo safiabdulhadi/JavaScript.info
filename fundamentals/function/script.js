@@ -16,6 +16,33 @@ To create a function we can use a function declaration
 // }
 // showMessage("Hello ", "from me Safi");
 
+// function showMessage(from, text){
+//     if(text == undefined){
+//         text = ' this text for example';
+//     }
+//     console.log( `${from} ${text}`);
+// }
+// showMessage("it' me");
+
+
+// function showMessage(text){
+//     if(text == undefined){
+//         text = ' this text for example';
+//     }
+    // console.log(`${text}`);
+//     return text;
+// }
+// const result = showMessage();
+// console.log(result); // the result is : this text for example
+
+
+// function showCount(count){
+// console.log(count ?? "unknown");
+// }
+// showCount(0);
+// showCount(undefined);
+// showCount(null);
+
 
 /*
 What are functions and why should we use them a javascript function is a block of code
