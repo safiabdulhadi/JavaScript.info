@@ -44,6 +44,28 @@ To create a function we can use a function declaration
 // showCount(null);
 
 
+// function singHappyBirthday(){
+//     console.log("Happy Birthday!");
+// }
+// singHappyBirthday();
+// singHappyBirthday();
+// singHappyBirthday();
+
+
+function twoPlusFour(){
+    return 2 + 4;
+
+}
+
+const returnedValue = twoPlusFour();
+console.log(returnedValue);
+
+
+
+
+
+
+
 /*
 What are functions and why should we use them a javascript function is a block of code
 
