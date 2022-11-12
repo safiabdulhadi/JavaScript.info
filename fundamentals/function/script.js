@@ -52,14 +52,47 @@ To create a function we can use a function declaration
 // singHappyBirthday();
 
 
-function twoPlusFour(){
-    return 2 + 4;
+// function twoPlusFour(){
+//     return 2 + 4;
 
+// }
+
+// const returnedValue = twoPlusFour();
+// console.log(returnedValue);
+
+
+//funcdtion
+// input : string
+// output : firstCharacter
+
+// function firstChar(anyString){
+//     return anyString[1];
+// }
+
+// charString = firstChar('abc');
+// console.log(charString);
+
+
+
+// function
+// input : array , target (number)
+// output : index of target if target presnt in array
+
+// [1,2,4,6,39,4] , 6
+
+function findTarget(array, target){
+    for(let i = 0; i < array.length; i++){
+        if(array[i] === target){
+            return i;
+        }
+    }
+    return -1;
 }
 
-const returnedValue = twoPlusFour();
-console.log(returnedValue);
+const myArray = [1,2,4,6,39,4];
 
+const result = findTarget(myArray,1 );
+console.log(result);
 
 
 
