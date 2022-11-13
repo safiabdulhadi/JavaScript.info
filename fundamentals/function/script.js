@@ -80,21 +80,20 @@ To create a function we can use a function declaration
 
 // [1,2,4,6,39,4] , 6
 
-function findTarget(array, target){
-    for(let i = 0; i < array.length; i++){
-        if(array[i] === target){
-            return i;
-        }
-    }
-    return -1;
-}
+// function findTarget(array, target){
+//     for(let i = 0; i < array.length; i++){
+//         if(array[i] === target){
+//             return i;
+//         }
+//     }
+//     return -1;
+// }
 
-const myArray = [1,2,4,6,39,4];
+// const myArray = [1,2,4,6,39,4];
 
-const result = findTarget(myArray,1 );
-console.log(result);
+// const result = findTarget(myArray,4 ); // 2 if is not return -1
 
-
+// console.log(result);
 
 
 
