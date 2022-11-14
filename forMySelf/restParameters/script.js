@@ -18,9 +18,9 @@
 // function addAll(...numbers){
 //     let total = 0;
 // for(let number of numbers){
-//     // console.log(total = number);
+    // console.log(total = number);
 //     total = total + number;
-//     // total = number;
+    // total = number;
 // }
 // return total;
 // }
