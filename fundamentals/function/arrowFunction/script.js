@@ -41,3 +41,11 @@ const sum4 = (n1, n2)=> n1 = n2;
 
 const r4 = sum4(20, 20);
 console.log(r4);
+
+let foo = text => console.log(`Let say ${text} and how are you? `);
+foo("Hello");
+let foo1 = text => console.log("let say this" + '' + text);
+foo1(" this text");
+
+let bar = () => console.log('this without arguments');
+bar();
