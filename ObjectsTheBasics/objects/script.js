@@ -81,3 +81,54 @@ Remove the property name from the object.
 //     sum += salaries[prop];
 // }
 // console.log(sum);
+
+
+// let user = {
+//     name: 'Abdulhadi',
+//     age: 28,
+//     'like birds': true
+// }
+// console.log(user);
+// console.log(user.name);
+
+// user.name = 'change the name of the user';
+// console.log(user.name);
+
+// user.getAge = function(){
+//     return this.age;
+// }
+// console.log(user.getAge());
+
+// let user ={
+//     name : 'Abdulhadi'
+// };
+// let key = 'likes birds';
+// // user["key"] = true;
+// user[key] = true;
+
+// console.log(user);
+// // console.log(user);
+// let result = 'name';
+// console.log(user['name']);
+
+function makeUser(name, age){
+    let userDetails = {
+        name: name,
+        age: age
+    }
+    return userDetails;
+
+}
+
+let user = makeUser("Abdulhadi", 28);
+console.log(user);
+
+
+
+
+
+
+
+
+
+
