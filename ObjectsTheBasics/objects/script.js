@@ -111,22 +111,60 @@ Remove the property name from the object.
 // let result = 'name';
 // console.log(user['name']);
 
-function makeUser(name, age){
-    let userDetails = {
-        name: name,
-        age: age
-    }
-    return userDetails;
+// function makeUser(name, age){
+//     let userDetails = {
+//         name: name,
+//         age: age
+//     }
+//     return userDetails;
 
+// }
+
+// let user = makeUser("Abdulhadi", 28);
+// console.log(user);
+
+
+
+
+// const circle = {
+//     radius: 1,
+//     location: {
+//         x: 1,
+//         y: 1
+//     },
+//     isVisible: true,
+//     draw: function(){
+//         console.log('draw');
+//     }
+// }
+// circle.draw();
+
+// How to create a Factory Function
+function createCircle(radius) {
+
+    return {
+        radius,
+        draw() {
+            console.log('draw');
+        }
+    };
 }
+// const circle1 = createCircle(1);
+// console.log(circle1);
+// const circle2 = createCircle(2);
+// console.log(circle2);
 
-let user = makeUser("Abdulhadi", 28);
-console.log(user);
+// Camel Notation : oneTwoThreeFour
+// Pascal Notation: OneTwoThreeFourFive
 
 
-
-
-
+// Constructor Function
+// function Circle(radius) {
+//     this.radius = radius;
+//     this.draw = function () {
+//         console.log('draws');
+//     }
+// }
 
 
 
