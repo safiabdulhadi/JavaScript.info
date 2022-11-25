@@ -22,3 +22,6 @@
 // let str = 'Widget with id';
 // console.log(str.indexOf('Widget'));
 // console.log(str.indexOf('with'));
+
+let str = "stringigy";
+console.log(str.substr(-4, 2));
