@@ -49,3 +49,6 @@ foo1(" this text");
 
 let bar = () => console.log('this without arguments');
 bar();
+
+let sum = (a, b) => a + b;
+console.log(sum);
