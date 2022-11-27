@@ -52,3 +52,13 @@ bar();
 
 let sum = (a, b) => a + b;
 console.log(sum);
+
+const materials = [
+    'Hydrogen',
+    'Helium',
+    'Lithium',
+    'Beryllium'
+];
+
+let seeLength = materials.map(material => material.length);
+console.log(seeLength);
