@@ -32,10 +32,11 @@
 //         }
 //     };
 // }
-// var fido = new Dog("Fido", "Mixed", 38);
-// var fluffy = new Dog("Fluffy", "Poodle", 30);
-// var spot = new Dog("Spot", "Chihuahua", 10);
-// var dogs = [fido, fluffy, spot];
-// for (var i = 0; i < dogs.length; i++) {
-//     dogs[i].bark();
-// }
+var fido = new Dog("Fido", "Mixed", 38);
+var fluffy = new Dog("Fluffy", "Poodle", 30);
+var spot = new Dog("Spot", "Chihuahua", 10);
+var dogs = [fido, fluffy, spot];
+for (var i = 0; i < dogs.length; i++) {
+    dogs[i].bark();
+
+}
