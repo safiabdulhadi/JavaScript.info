@@ -26,4 +26,10 @@ let salaries = {
 console.log(sumSalaries(salaries)); // 800
 
 
+let user1 = {};
+[user.name, user1.surname] = "John Smith".split(' ');
+
+alert(user1.name); // John
+alert(user1.surname); // Smith
+
 
